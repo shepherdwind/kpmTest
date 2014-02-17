@@ -20,6 +20,7 @@ KISSY.add('gallery/kpmTest/1.0/index',function (S, Node,Base) {
      */
     function KpmTest(comConfig) {
         var self = this;
+        var name = 'hello world';
         //调用父类构造函数
         KpmTest.superclass.constructor.call(self, comConfig);
     }
