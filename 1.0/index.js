@@ -14,6 +14,7 @@ KISSY.add(function (S, Node,Base) {
      */
     function KpmTest(comConfig) {
         var self = this;
+        var name = 'hello world';
         //调用父类构造函数
         KpmTest.superclass.constructor.call(self, comConfig);
     }
